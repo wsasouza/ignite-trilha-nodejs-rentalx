@@ -8,10 +8,7 @@ class User {
   id: string;
 
   @Column()
-  name: string;
-
-  @Column()
-  username: string;
+  name: string;  
 
   @Column()
   email: string;
